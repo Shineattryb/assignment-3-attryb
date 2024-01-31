@@ -1,0 +1,45 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+
+}
+.container{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+svg{
+  margin-top:20px;
+}
+button{
+  margin-top:20px;
+  padding:10px 20px;
+  background-color:bisque;
+  color:black;
+  border:none;
+  cursor:pointer;
+  border-radius:5px;
+}
+button:hover{
+  background-color:chocolate;
+}
+label{
+  font-size:16px;
+  font-weight:bold;
+}
+.input-container{
+  margin-bottom:20px;
+}
+button{
+  margin-right:10px;
+}
+.buttonss{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content: center;
+}
+
